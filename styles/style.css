@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:ital,wght@0,200;0,300;0,500;1,200&family=Work+Sans:wght@800&display=swap');
-*{
+
+* {
     font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
+
 /* .header{
    
 }
@@ -22,7 +24,7 @@ height: 90px;
 height: 40px;
 } */
 
-    /* width: 86.041px;
+/* width: 86.041px;
 height: 40px;
 margin: auto;
 padding: 20px; */
@@ -43,165 +45,428 @@ nav a{
     text-decoration: none;
 } */
 
-.header{
+.header {
     margin: 20px;
-    padding:0px 10px;
+    padding: 0px 10px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-width: 1920px;
-height: 130px;
+    width: 100%;
+    height: 130px;
 }
-.nav-img{
-    display:flex;
+
+.nav-img {
+    display: flex;
     align-items: center;
 }
-.nav-img>img{
+
+.nav-img>img {
     width: 86.041px;
-height: 40px;
+    height: 40px;
 }
-.nav-title{
+
+.nav-title {
     text-align: center;
-font-size: 45px;
-font-weight: 700;
-margin-left: 20px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
 }
-.nav-title>span{
-    color:#FF42A5;
+
+.nav-title>span {
+    color: #FF42A5;
 
 
 }
-nav>ul{
+
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 40px;
-font-size: 18px;
-font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #3C354F;
 }
-.nav-follow-section{
+
+.nav-follow-section {
     display: flex;
     justify-content: center;
     width: 262px;
-height: 50px;
+    height: 50px;
     border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
+    background: rgba(11, 2, 35, 0.10);
 }
-.top-section{
+
+.top-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.goat-section-1{
+
+.goat-section-1 {
     background: #fff;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
-.goat-section{
+
+.goat-section {
     background-image: url(../images/Group\ 14.png);
     width: 901px;
-height: 700px;
-fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    height: 700px;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
-.goat-section>h3{
+
+.goat-section>h3 {
     color: #0B0223;
-text-align: center;
-font-size: 48px;
-font-weight: 500;
-text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
-.goat-section>h1{
+
+.goat-section>h1 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
-font-size: 95px;
-font-weight: 800;
-text-transform: uppercase;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
-.goat-section>p{
+
+.goat-section>p {
     color: #534C64;
-text-align: center;
-font-size: 20px;
-font-weight: 500;
-text-transform: lowercase;
-}.btn-primary{
-    display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-border: 0;
-color: #fff;
-font-size: 1rem;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-margin-top: 2.8rem;
-margin-left: 15rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
 }
-.btn-secondary{
+
+.btn-primary {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: 0;
+    color: #fff;
+    font-size: 1rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-top: 2.8rem;
+    margin-left: 15rem;
+}
+
+.btn-secondary {
     display: inline-flex;
     margin-left: 50px;
-padding: 21px 40px;
-align-items: center;
-gap: 10px;
-border-radius: 48px;
-color: #fff;
-border: 0;
-font-size: 17px;
-background: #4EC5F7;
+    padding: 21px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 48px;
+    color: #fff;
+    border: 0;
+    font-size: 17px;
+    background: #4EC5F7;
 }
-.goat-section-2{
+
+.goat-section-2 {
     margin-right: 200px;
 }
-.top-gamer-section{
+
+.top-gamer-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin :100px;
+    margin: 100px;
     padding: 50px;
 }
-.game-section{
-   margin: 0 auto;
+
+.game-section {
+    margin: 0 auto;
 }
-.game-section>h3{
+
+.game-section>h3 {
     text-align: right;
-font-family: Work Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.game-desc{
+
+.game-desc {
     color: #534C64;
-text-align: right;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 520px;
+}
+
+.game-desc-1 {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btn {
+    text-align: right;
+}
+
+.section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.span-title-1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.games-section-desc {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.games-container {
+    /* display: grid;
+   grid-template-columns: repeat(4,1fr);
+   margin: 240px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.special-card {
+    background-image: url(../images/Rectangle\ 7.png);
+    width: 342px;
+    height: 400px;
+    filter: brightness(40%);
+    border: 5px solid #FF42A5;
+    border-radius: 16px;
+}
+
+.fa-circle-play {
+    width: 48px;
+    height: 48px;
+    color: #fff;
+}
+
+.instant-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20rem;
+}
+
+.span-title {
+    color: #F948B2;
+}
+
+.instant-desc {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    width: 29rem;
+}
+
+.position-section {
+    position: relative;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-evenly;
+    margin: 250px;
+    
+}
+
+.games-type {
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr); */
+    gap: 20px;
+    width: 100%;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.section-1 {
+    display: flex;
+  align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 50px;
+    gap: 20px;
+   
+}
+
+.section-2 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-3 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+}
+
+.section-4 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-5 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-6 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-7 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-8 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-9 {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+.footer{
+    text-align: center;
+    margin: auto;
+    background: #0B0223;
+}
+.footer-title{
+    color: #fff;
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+}
+.footer-title>span{
+    color: #FF42A5;
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-image>img{
+    width: 86.041px;
+    height: 40px;
+}
+.footer-section{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 60px;
+}
+.footer-section>p{
+    color: #FFF;
+text-align: center;
 font-family: Work Sans;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
-line-height: 30px;
-width: 520px;
+font-weight: 600;
+line-height: normal;
 }
-.game-desc-1{
-    color: #534C64;
-text-align: right;
-font-size: 24px;
+.footer-last{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
 font-weight: 500;
+line-height: normal;
 }
-.btn{
-    text-align: right;
+.footer-last>small{
+    margin-top: 60px;
+margin-left: 40px;
 }
