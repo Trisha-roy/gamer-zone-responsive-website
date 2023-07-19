@@ -21,12 +21,12 @@ height: 90px;
     width: 86.041px;
 height: 40px;
 } */
-.nav-img>img{
+
     /* width: 86.041px;
 height: 40px;
 margin: auto;
 padding: 20px; */
-}
+
 /* .nav-title{
 font-size: 45px;
 font-weight: 700;
@@ -163,4 +163,45 @@ background: #4EC5F7;
 }
 .goat-section-2{
     margin-right: 200px;
+}
+.top-gamer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin :100px;
+    padding: 50px;
+}
+.game-section{
+   margin: 0 auto;
+}
+.game-section>h3{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.game-desc{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 520px;
+}
+.game-desc-1{
+    color: #534C64;
+text-align: right;
+font-size: 24px;
+font-weight: 500;
+}
+.btn{
+    text-align: right;
 }
